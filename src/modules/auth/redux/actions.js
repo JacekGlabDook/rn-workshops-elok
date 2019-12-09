@@ -1,5 +1,5 @@
 import { apiAction } from '../../../base/redux/utils';
-import { urls } from '../../../../apiUrls';
+import { urls } from '../../../../urls';
 
 const prefix = '@@auth/';
 

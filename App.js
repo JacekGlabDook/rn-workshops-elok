@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState }  from 'react';
 import { AppLoading } from 'expo';
 import { Ionicons } from '@expo/vector-icons';
 import { Platform, StatusBar } from 'react-native';
 import { Provider } from 'react-redux';
+import * as Font from 'expo-font';
 
 import createStore from './src/base/redux/configureStore';
 import rootSaga from './src/base/redux/sagas';
